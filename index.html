@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,41 @@
     <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/b8bae2bd97.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+
+<body class="sm:bg-green-400">
+    <!-- navigation bar starts here -->
+    <header class="w-full shadow-lg">
+        <nav
+            class="flex container mx-auto justify-between px-8 items-center h-20 sm:px-4 md:px-0 lg:px-0 xl:px-0 2xl:px-0">
+            <div>
+                <h3 class="text-2xl font-bold sm:text-3xl">sukhendra.dev</h3>
+            </div>
+            <div class="sm:hidden">
+                <i class="fas fa-solid fa-bars text-2xl"></i>
+            </div>
+            <div class="hidden sm:block">
+                <ul class="flex space-x-5 text-black font-bold">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- navigation bar end here -->
+    <!-- main section start here -->
+    <main class="flex justify-center items-center w-full px-4 h-96">
+        <section class="text-center">
+            <h1 class="text-3xl font-bold py-4">Front-End React <br> Developer &#128075;</h1>
+            <p class="text-xl px-4">Hi, I'm Sukhendra Singh Lodhi. A passionate Front-End React <br> Developer based in Indore, India. 📍</p>
+            <div>
+                <img class="w-5" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-256.png" alt="linkedin">
+                <img class="w-5" src="https://cdn3.iconfinder.com/data/icons/social-media-2253/25/Group-256.png" alt="github">
+            </div>
+        </section>
+    </main>
+    <!-- main section end here -->
 </body>
+
 </html>
